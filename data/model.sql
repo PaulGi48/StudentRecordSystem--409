@@ -23,21 +23,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `parent`
---
-
-CREATE TABLE IF NOT EXISTS `parent` (
-  `id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `address` varchar(450) NOT NULL,
-  `phone` varchar(150) NOT NULL,
-  `email` varchar(55) NOT NULL,
-  `note` varchar(200) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `student`
 --
 
@@ -80,17 +65,11 @@ CREATE TABLE IF NOT EXISTS `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `position`, `username`, `password`) VALUES
-(1, 'Aderemi Dotun', 'admin', 'admin', 'admin');
+(1, 'CSC 409 Group 1', 'admin', 'admin', 'admin');
 
 --
 -- Indexes for dumped tables
 --
-
---
--- Indexes for table `parent`
---
-ALTER TABLE `parent`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `student`
@@ -108,11 +87,6 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for dumped tables
 --
 
---
--- AUTO_INCREMENT for table `parent`
---
-ALTER TABLE `parent`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `student`
 --
