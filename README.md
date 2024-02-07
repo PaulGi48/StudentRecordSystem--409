@@ -18,8 +18,6 @@ Primary Key: Every record in the database must have a unique identifier that ser
 ## **Group Members**
 
 - Giovanni Paul-Sodipo
-- Adeleke Olumide
-- Iwuh Chisom
 
 ## **Login Details**
 
